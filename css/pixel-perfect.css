@@ -93,10 +93,11 @@ body {
   cursor: pointer;
 }
 
+/* Figmaでは非選択状態で表示 */
 .filter-tag--active {
-  background: #323232;
-  border-color: #323232;
-  color: #fff;
+  background: transparent;
+  border-color: #7d7d7d;
+  color: #7d7d7d;
 }
 
 /* Count */
