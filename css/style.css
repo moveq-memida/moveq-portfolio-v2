@@ -142,14 +142,15 @@
    LAYER: Layout
    ============================================ */
 @layer layout {
-  /* Main Container - Flex column for sticky footer */
+  /* Main Container - Figma Pixel Perfect: 1280 x 2642 */
   .portfolio {
-    display: flex;
-    flex-direction: column;
-    min-block-size: 100dvh;
-    min-block-size: 100svh; /* Fallback for older browsers */
-    container-type: inline-size;
-    container-name: portfolio;
+    display: block;
+    position: relative;
+    inline-size: 80rem; /* 1280px */
+    block-size: 165.125rem; /* 2642px - Figma exact */
+    margin-inline: auto;
+    background-color: var(--color-bg-main);
+    overflow: hidden;
   }
 
   /* Navigation */
