@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Creatives | MOVE Q Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="images/logo.png" alt="MOVE Q." width="144" height="31">
+      </a>
+      <button class="nav__menu" aria-label="メニューを開く">
+        <img src="images/nav-circle.png" alt="" width="40" height="40">
+      </button>
+    </div>
+  </nav>
+
+  <main class="portfolio">
+    <!-- Header Section -->
+    <header class="portfolio__header">
+      <h1 class="portfolio__title">All Creatives</h1>
+      
+      <!-- Filter Tags -->
+      <div class="filter-tags">
+        <button class="filter-tag filter-tag--active"># Website</button>
+        <button class="filter-tag"># コーポレートサイト</button>
+        <button class="filter-tag"># 歯科</button>
+      </div>
+      
+      <p class="portfolio__count"><span class="count-current">24</span> / <span class="count-total">56</span></p>
+      
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" class="search-bar__input" placeholder="キーワードで検索">
+        <button class="search-bar__button" aria-label="検索">
+          <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.917" cy="7.917" r="6.917" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13.515 13.515L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio__grid">
+      <!-- Row 1 -->
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="card__image">
+          <img src="images/card-1-real.png" alt="乳腺クリニック・道後 コーポレートサイト" loading="lazy">
+        </div>
+        <div class="card__content">
+          <h2 class="card__title">乳腺クリニック・道後 | コーポレートサイト</h2>
+          <div class="card__tags">
+            <span class="tag"># コーポレートサイト</span>
+            <span class="tag"># その他の病院</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="card__image">
+          <img src="images/card-2.png" alt="越智歯科医院 コーポレートサイト" loading="lazy">
+        </div>
+        <div class="card__content">
+          <h2 class="card__title">越智歯科医院 | コーポレートサイト</h2>
+          <div class="card__tags">
+            <span class="tag"># コーポレートサイト</span>
+            <span class="tag"># 歯科</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <div class="card__image">
+          <img src="images/card-3.png" alt="越智歯科医院 小児矯正サイト" loading="lazy">
+        </div>
+        <div class="card__content">
+          <h2 class="card__title">越智歯科医院 | 小児矯正サイト</h2>
+          <div class="card__tags">
+            <span class="tag"># サービスサイト</span>
+            <span class="tag"># 歯科</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Row 2 -->
+      <!-- Card 4 -->
+      <article class="card">
+        <div class="card__image card__image--placeholder"></div>
+        <div class="card__content">
+          <h2 class="card__title">乳腺クリニック・道後 | オフィシャルサイト</h2>
+          <div class="card__tags">
+            <span class="tag"># コーポレートサイト</span>
+            <span class="tag"># その他の病院</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="card">
+        <div class="card__image card__image--placeholder"></div>
+        <div class="card__content">
+          <h2 class="card__title">越智歯科医院 | オフィシャルサイト</h2>
+          <div class="card__tags">
+            <span class="tag"># コーポレートサイト</span>
+            <span class="tag"># 歯科</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="card">
+        <div class="card__image card__image--placeholder"></div>
+        <div class="card__content">
+          <h2 class="card__title">越智歯科医院 | 小児矯正サイト</h2>
+          <div class="card__tags">
+            <span class="tag"># サービスサイト</span>
+            <span class="tag"># 歯科</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="portfolio__footer">
+      <!-- Gradient Background -->
+      <div class="footer__gradient" aria-hidden="true"></div>
+      
+      <div class="footer__content">
+        <p class="footer__tagline">世界にワクワクと価値あるものを</p>
+        
+        <nav class="footer__nav">
+          <a href="#" class="footer__link">コーポレートサイトへ</a>
+          <span class="footer__divider" aria-hidden="true"></span>
+          <a href="#" class="footer__link">Topics</a>
+          <span class="footer__divider" aria-hidden="true"></span>
+          <a href="#" class="footer__link">お問い合わせ</a>
+        </nav>
+        
+        <p class="footer__copyright">©MOVE Q, Co., Ltd. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
