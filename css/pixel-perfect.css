@@ -70,10 +70,10 @@ body {
   color: #323232;
 }
 
-/* Filter Tags */
+/* Filter Tags - Figma: below title */
 .filter-tags {
   position: absolute;
-  top: 275px;
+  top: 267px; /* Adjusted to match Figma */
   left: 80px;
   display: flex;
   gap: 8px;
@@ -221,13 +221,20 @@ body {
 
 .footer__gradient {
   position: absolute;
-  inset: 0;
+  /* Figma: 1696x1694 image centered at bottom */
+  width: 1696px;
+  height: 1694px;
+  left: 50%;
+  bottom: -487px; /* (1694 - 720) / 2 = 487 */
+  transform: translateX(-50%);
   background: radial-gradient(
-    ellipse 132% 132% at 50% 100%,
-    rgba(255, 180, 170, 0.5) 0%,
-    rgba(255, 200, 150, 0.3) 30%,
-    transparent 60%
+    circle at 50% 50%,
+    rgba(255, 180, 170, 0.6) 0%,
+    rgba(255, 190, 160, 0.4) 25%,
+    rgba(255, 200, 150, 0.2) 50%,
+    transparent 70%
   );
+  border-radius: 50%;
 }
 
 .footer__content {
