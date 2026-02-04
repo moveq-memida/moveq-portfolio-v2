@@ -1,0 +1,6 @@
+node_modules/
+*.log
+diff*.png
+figma-original.png
+generated-screenshot.png
+screenshot.mjs
